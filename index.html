@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link rel="shortcut icon" href="./assets/images/svg/favicon.svg" type="image/x-icon" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="logo">
+                    <a href="./"><img class="logo__img" src="./assets/logo.svg" alt="Logo" /></a>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li>
+                            <a href="#!" class="navbar__link active">
+                                <img class="icon" src="./assets/images/svg/dashboard.svg" alt="Dashboard" />
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="navbar__link">
+                                <img
+                                    class="icon"
+                                    src="./assets/images/svg/transactions.svg"
+                                    alt="Transactions"
+                                />
+                                <span>Transactions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="navbar__link">
+                                <img class="icon" src="./assets/images/svg/wallet.svg" alt="Wallet" />
+                                <span>Wallet</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="navbar__link">
+                                <img class="icon" src="./assets/images/svg/analytics.svg" alt="Analytics" />
+                                <span>Analytics</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="navbar__link">
+                                <img class="icon" src="./assets/images/svg/personal.svg" alt="Personal" />
+                                <span>Personal</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="navbar__link">
+                                <img class="icon" src="./assets/images/svg/message.svg" alt="Message" />
+                                <span>Message</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="navbar__link">
+                                <img class="icon" src="./assets/images/svg/setting.svg" alt="Setting" />
+                                <span>Setting</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="main">
+                <div class="inner">
+                    <!-- header -->
+                    <header class="header">
+                        <div class="title">Dashboard</div>
+                        <div class="action">
+                            <div class="search">
+                                <input
+                                    type="text"
+                                    title="search"
+                                    placeholder="Search..."
+                                    class="search__input"
+                                />
+                                <button title="" type="button" class="search__btn">
+                                    <img
+                                        src="./assets/images/svg/search.svg"
+                                        alt="search"
+                                        class="search__icon"
+                                    />
+                                </button>
+                            </div>
+                            <div class="notification">
+                                <img
+                                    hidden
+                                    class="notification__icon"
+                                    src="./assets/images/svg/notification-2.svg"
+                                    alt="notification"
+                                />
+                                <img
+                                    class="notification__icon notification__icon--active"
+                                    src="./assets/images/svg/notification.svg"
+                                    alt="notification"
+                                />
+                            </div>
+                            <div class="avatar">
+                                <img class="avatar__img" src="./assets/images/avatar/avatar.png" alt="" />
+                            </div>
+                        </div>
+                    </header>
+
+                    <!-- content -->
+                    <div class="body">
+                        <div class="content">
+                            <div class="finance-cards">
+                                <!-- Finance Card 1 -->
+                                <div class="finance-card">
+                                    <div class="finance-card__icon">
+                                        <img src="./assets/images/svg/wallet-card.svg" alt="Balance" />
+                                    </div>
+                                    <div class="finance-card__info">
+                                        <div class="finance-card__title">Balance</div>
+                                        <div class="finance-card__value">$41,210</div>
+                                    </div>
+                                </div>
+                                <!-- Finance Card 2 -->
+                                <div class="finance-card">
+                                    <div class="finance-card__icon">
+                                        <img src="./assets/images/svg/cash.svg" alt="Income" />
+                                    </div>
+                                    <div class="finance-card__info">
+                                        <div class="finance-card__title">Income</div>
+                                        <div class="finance-card__value">$41,210</div>
+                                    </div>
+                                </div>
+                                <!-- Finance Card 3 -->
+                                <div class="finance-card">
+                                    <div class="finance-card__icon">
+                                        <img src="./assets/images/svg/credit.svg" alt="Expenses" />
+                                    </div>
+                                    <div class="finance-card__info">
+                                        <div class="finance-card__title">Expenses</div>
+                                        <div class="finance-card__value">$41,210</div>
+                                    </div>
+                                </div>
+                                <!-- Finance Card 4 -->
+                                <div class="finance-card">
+                                    <div class="finance-card__icon">
+                                        <img src="./assets/images/svg/coin.svg" alt="Savings" />
+                                    </div>
+                                    <div class="finance-card__info">
+                                        <div class="finance-card__title">Savings</div>
+                                        <div class="finance-card__value">$41,210</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
